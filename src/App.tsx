@@ -10,7 +10,7 @@ function App() {
   const [tools, setTools] = useState<Tool[]>([])
   const [startPoint, setStartPoint] = useState<PointEvent>()
   const [colorPlatte, setColorPlatte] = useState<string[]>([])
-  const [cursorStyle, setCursorStyle] = useState<string>("brush")
+  const [cursorStyle, setCursorStyle] = useState<string>("/tools/brush.svg")
   const [color, setColor] = useState<string>("#000");
   const [isDrawing, setIsDrawing] = useState<boolean>(false);
   const [range, setRange] = useState<string>("5");
